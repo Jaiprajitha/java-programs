@@ -1,0 +1,21 @@
+class quoandrem{
+public static void main(String[]args){
+int dividend=10,divisor=5;
+int quotient=dividend/divisor;
+int remainder=dividend%divisor;
+System.out.println("quotient="+quotient);
+System.out.println("remainder="+remainder);
+}
+}
+output:
+Microsoft Windows [Version 10.0.18362.239]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\student>javac quoandrem.java
+
+C:\Users\student>java quoandrem
+quotient=2
+remainder=0
+
+C:\Users\student>
+
