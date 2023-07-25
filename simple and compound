@@ -1,0 +1,30 @@
+program:
+class interest{
+public static void main(String[]args){
+double p,r,t,s_interest,c_interest;
+p=23000;
+r=14;
+t=4;
+System.out.println("principal="+p);
+System.out.println("rate="+r);
+System.out.println("time(years)="+t);
+s_interest=(p*r*t)/100;
+c_interest=p*Math.pow(1.4+r/100,t)-p;
+System.out.println("siminterest="+s_interest);
+System.out.println("cominterest="+c_interest);
+}
+}
+output:
+Microsoft Windows [Version 10.0.18362.239]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\student>javac interest.java
+
+C:\Users\student>java interest
+principal=23000.0
+rate=14.0
+time(years)=4.0
+siminterest=12880.0
+cominterest=106363.19088000001
+
+C:\Users\student>
