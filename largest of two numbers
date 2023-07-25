@@ -1,0 +1,22 @@
+class three{
+public static void main(String[]args){
+int n1=20,n2=40,n3=100000;
+if(n1>=n2 && n1>=n3)
+System.out.println(n1+"is the largest number");
+else if(n2>=n1 && n2>=n3)
+System.out.println(n2+"is the largest number");
+else
+System.out.println(n3+"is the largest number");
+}
+}
+output:
+Microsoft Windows [Version 10.0.18362.239]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\student>javac three.java
+
+C:\Users\student>java three
+100000is the largest number
+
+C:\Users\student>
+
