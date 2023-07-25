@@ -1,0 +1,20 @@
+class factorial{
+public static void main(String[]args){
+int i,num=1,fact=5;
+for(i=1;i<=num;++i);
+fact=fact*i;
+System.out.println("the factoria of the number is:"+fact);
+}
+}
+output:
+Microsoft Windows [Version 10.0.18362.239]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\student>javac factorial.java
+
+C:\Users\student>java factorial
+the factoria of the number is:10
+
+C:\Users\student>
+
+
